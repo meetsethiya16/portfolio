@@ -1,0 +1,53 @@
+.chat-box {
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  height: 100px;
+  width: 230px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.chat-box-text {
+  height: 50px;
+  width: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  color: #000;
+  background-color: #fff;
+  box-shadow: 0px 0px 10px 1px #0000003b;
+  font-size: 16px;
+  font-family: salsa;
+}
+
+.chat-box-icon {
+  height: 80px;
+  width: 80px;
+  background-color: #7843e9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+
+.chat-box-icon i {
+  font-size: 25px;
+  color: #fff;
+}
+
+.chat-box-icon:hover {
+  transition: 0.2s ease-in;
+  transform: scale(1.1);
+}
+/* 
+<section class="whatsapp-btn">
+      <div class="chat-box">
+        <div class="chat-box-text">Chat with me</div>
+        <div class="chat-box-icon"><i class="fa-solid fa-message"></i></div>
+      </div>
+    </section> */
